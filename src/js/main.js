@@ -59,13 +59,13 @@ function destapar(id) {
   if (tarjetasDestapadas === 1) {
     // Mostrar primera tarjeta
     tarjeta1 = tarjetaSeleccionada;
-    primerResultado = numeros[id]; // Asignar el valor correcto
+    primerResultado = numeros[id];
     tarjeta1.innerHTML = primerResultado;
     tarjeta1.disabled = true;
   } else if (tarjetasDestapadas === 2) {
     // Mostrar segunda tarjeta
     tarjeta2 = tarjetaSeleccionada;
-    segundoResultado = numeros[id]; // Asignar el valor correcto
+    segundoResultado = numeros[id]; 
     tarjeta2.innerHTML = segundoResultado;
     tarjeta2.disabled = true;
 
