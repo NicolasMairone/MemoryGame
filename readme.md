@@ -27,7 +27,7 @@ cd Juego-Memoria
 ```
 ### Ejecutar la Aplicación
 
-1. Abre el archivo `index.html` directamente en tu navegador.
+1. Abre el archivo `juego de diferencias.html` directamente en tu navegador.
 2. ¡Comienza a jugar! Las tarjetas se mezclarán al inicio y tendrás que encontrar las parejas.
 
 ## 💡 Contribuciones
