@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Archivos generados por npm
+npm-debug.log
+package-lock.json
+
+# Carpetas de build o dist
+dist/
+
+# Archivos de configuración de IDE (si usas alguno)
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

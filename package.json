@@ -1,0 +1,28 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "description": "## 📌 Descripción **Juego de Memoria** es una aplicación web de tipo juego interactivo diseñado para poner a prueba tu memoria visual. Consiste en encontrar las parejas de tarjetas que son iguales, y solo podrás destaparlas de dos en dos. El objetivo es hacerlo en el menor tiempo posible y con la menor cantidad de movimientos. ¡Ideal para ejercitar la mente y divertirse!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/js && terser ./main.js --compress --mangle --output dist/main.min.js",
+    "minify-js": "terser ./main.js --compress --mangle --output dist/main.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasMairone/MemoryGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasMairone/MemoryGame/issues"
+  },
+  "homepage": "https://github.com/NicolasMairone/MemoryGame#readme",
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "mkdirp": "^3.0.1",
+    "sass": "^1.86.0",
+    "terser": "^5.39.0"
+  }
+}
