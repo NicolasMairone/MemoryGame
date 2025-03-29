@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist/js && terser ./main.js --compress --mangle --output dist/main.min.js",
-    "minify-js": "terser ./main.js --compress --mangle --output dist/main.min.js"
+    "build": "mkdir -p dist/js && terser src/js/main.js --compress --mangle --output dist/js/main.min.js && cp src/'Juego de diferencias.html' dist/index.html && cp -r src/styles dist/styles",
+    "minify-js": "terser src/js/main.js --compress --mangle --output dist/js/main.min.js"
   },
   "repository": {
     "type": "git",
