@@ -8,7 +8,7 @@ package-lock.json
 # Carpetas de build o dist
 dist/
 
-# Archivos de configuración de IDE (si usas alguno)
+# Archivos de configuración de IDE 
 .vscode/
 .idea/
 
